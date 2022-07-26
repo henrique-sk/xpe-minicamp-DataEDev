@@ -1,0 +1,46 @@
+<html>
+  <script>
+
+    // Verificar se um número é divisível por 3 ou por 5
+    // Caso seja, retornar true
+    // Caso não seja, retornar false
+
+    function verificaDivisivel(numero) {
+    
+      if (numero % 3 === 0 || numero % 5 === 0) {
+        return true;
+      } else {
+        return false;     
+      }
+      
+    }
+
+    function verificaIntervalo(inicial, final) {
+      
+      var contador = 0, soma = 0, multiplicacao = 1;
+
+      // for (var i = inicial; i <= final; i++) {
+      //   if (verificaDivisivel(i)) {
+      //     contador++;
+      //     soma += i;
+      //     multiplicacao *= i;
+      //   }
+      // }
+
+      var j = inicial;
+      while (j <= final) {
+        if (verificaDivisivel(j)) {
+          contador++;
+          soma += j;
+          multiplicacao *= j;
+        }
+        j++;
+      }
+
+      console.log('Quantidade de valores: ' + contador);
+      console.log('A soma é: ' + soma);
+      console.log('A multiplicação é: ' + multiplicacao)
+    }
+
+  </script>
+</html>
