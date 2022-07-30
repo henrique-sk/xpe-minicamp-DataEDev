@@ -1,0 +1,28 @@
+<html>
+  <script>
+    function verificaNumeroPrimo(numero) {
+      contador = 0;
+      for (var i = 1; i <= numero; i++) {
+        if (contador > 2) {
+          break;
+        } else if (contador <= 2 && numero % i == 0) {
+          contador++;
+        }
+      }
+      if (contador == 2) {
+        console.log('O número ' + numero + ' é primo.');
+      } else if (numero < 2 || contador > 2) {
+        console.log('O número ' + numero + ' não é primo.');
+      } 
+    }
+
+    for (var i = 4; i < 16; i++) {
+      verificaNumeroPrimo(i);
+    }
+    verificaNumeroPrimo(987);
+    verificaNumeroPrimo(927);
+    verificaNumeroPrimo(997);
+    verificaNumeroPrimo(957);
+    
+  </script>
+</html>
