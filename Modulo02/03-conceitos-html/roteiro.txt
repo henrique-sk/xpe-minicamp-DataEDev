@@ -1,16 +1,16 @@
 Roteiro - conceitos-html
 ========================
 
-() Clonar projeto-base
-() Trocar títulos
+(x) Clonar projeto-base
+(x) Trocar títulos
 
-() Inserir tag <header> com <h1>
-() Inserir tag <main>
+(x) Inserir tag <header> com <h1>
+(x) Inserir tag <main>
 
-() Dentro de main:
-   () Criar exemplos de <h1> até <h6>
-   () Criar exemplo de <p>
-   () Demonstrar que quebras de linha no parágrafo
+(x) Dentro de main:
+   (x) Criar exemplos de <h1> até <h6>
+   (x) Criar exemplo de <p>
+   (x) Demonstrar que quebras de linha no parágrafo
       não fazem diferença
    () Criar exemplo de <ol> <li>
    () Criar exemplo de <ul> <li>
