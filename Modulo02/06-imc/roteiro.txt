@@ -1,15 +1,15 @@
 Roteiro - imc
 =============
 
-() Clonar projeto-base
+(x) Clonar projeto-base
 
 HTML: 
-() Montar HTML com 2 inputs do tipo texto e 1 botão
-() Utilizar id's nos inputs e botão
-() Inserir div para conter o resultado do cálculo
+(x) Montar HTML com 2 inputs do tipo texto e 1 botão
+(x) Utilizar id's nos inputs e botão
+(x) Inserir div para conter o resultado do cálculo
 
 CSS:
-() Estilizar inputs de forma que fiquem com o mesmo tamanho
+(x) Estilizar inputs de forma que fiquem com o mesmo tamanho
 
 JavaScript:
 () Criar função start

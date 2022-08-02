@@ -13,6 +13,8 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.iconTheme": "vscode-icons",
   "workbench.editor.labelFormat": "short",
+  "debug.console.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "'JetBrains Mono', Consolas, monospace",
   "editor.fontLigatures": false,
   "update.mode": "manual",
   "editor.renderWhitespace": "all",
@@ -31,6 +33,7 @@
   "editor.parameterHints.enabled": true,
   "vsicons.dontShowNewVersionMessage": true,
   "files.autoSave": "onFocusChange",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.editor.enablePreview": false,
   "[javascript]": {
