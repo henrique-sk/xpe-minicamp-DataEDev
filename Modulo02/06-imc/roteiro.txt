@@ -12,9 +12,9 @@ CSS:
 (x) Estilizar inputs de forma que fiquem com o mesmo tamanho
 
 JavaScript:
-() Criar função start
-() Executar start()
-() Criar e implementar função calculateImc(weight, height)
+(x) Criar função start
+(x) Executar start()
+(x) Criar e implementar função calculateImc(weight, height)
 () Em start, obter os inputs e botão como variáveis com document.querySelector
 () Fazer com que botão calcule o IMC com addEventListener do tipo 'click'
 () Tornar o programa mais dinâmico monitorando os inputs com addEventListener
