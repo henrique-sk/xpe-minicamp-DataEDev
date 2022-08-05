@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>IMC</title>
+  </head>
+  <body>
+    <h1>IMC</h1>
+
+    <label for="input-weight">Peso (kg):&nbsp;</label><br />
+    <!--
+      type="number" - para o navegador aceitar somente números e colocar um seletor de setas para aumentar e diminuir
+      step="0.1" - para o seletor mudar 0.1 por clique
+    -->
+    <input id="input-weight" type="number" value="75" step="0.1" /><br /><br />
+
+    <label for="input-height">Altura (m): </label><br />
+    <input id="input-height" type="number" value="1.75" step="0.01" />
+
+    <p>
+      <button id="button-calculate-imc">Calcular IMC</button>
+    </p>
+
+    <p id="paragraph-result">
+      O IMC desses dados é <strong id="imc-result"></strong>
+      <br />
+      <br />
+      Este valor considera que você está na faixa
+      <strong id="imc-range"></strong>
+    </p>
+
+    <script defer src="./js/script.js">
+      // defer indica que o script só será executado quando a página htm estiver totalmente carregada na máquina do usuário
+    </script>
+  </body>
+</html>
